@@ -1,0 +1,136 @@
+/* Mentor Section */
+.mentors {
+  
+  padding: 50px 0;
+  text-align: center;
+}
+
+.mentors h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.mentors span {
+  color: #845ec2;
+}
+
+.mentor-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Smaller Mentor Cards */
+.card {
+  background: #ffffffa7;
+  width: 140px;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1
+}
+
+body {
+  background: url("images/background.png") no-repeat center center/cover;
+}
+
+/* Hero Section */
+.hero {
+  
+              url('images/hero-bg.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.tags {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tags span {
+  font-size: 16px;
+  color: #ccc;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  border: 1px solid #845ec2;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Reuse your existing .btn style */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 14px 30px;
+  background: #845ec2;
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #6d42b1;
+}
+
+/* Navbar */
+.navbar {
+  
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  float: right;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
